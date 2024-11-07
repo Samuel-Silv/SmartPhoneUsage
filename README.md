@@ -6,12 +6,12 @@ A conectividade constante traz benefícios, mas também desafios para o equilíb
 
 ![image](https://github.com/user-attachments/assets/f2c0dcc9-8d45-410b-b827-41a81772c610)
 
-## Problema a ser resolvido
+## Problema a ser resolvido:
 O objetivo de nosso projeto é desenvolver uma aplicação capaz de analisar dados públicos, oferecendo insights valiosos para explicar 
 como o uso de celulares transforma nossos comportamentos no âmbito social.
 
 
-## Visualizações a serem geradas
+## Visualizações a serem geradas:
 1. *Gráficos de Linha*
 2. *Mapas de Calor (Heatmaps)*
 3. *Gráficos de Barras e Colunas*
