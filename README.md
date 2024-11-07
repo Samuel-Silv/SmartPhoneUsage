@@ -1,4 +1,24 @@
-# SmartPhoneUsage - A utilização de Smartphones e o comportamento de usuários
+# Equipe: Time do Vinishow
+
+
+## Tema: SmartPhoneUsage - A utilização de Smartphones e o comportamento de usuários
+
+## Componentes dos grupo:
+-Gustavo Justino
+-Neoaquison Medeiros
+-Rafael Medeiros
+-Samuel Silva
+-Vinicius Soares
+
+##Link do repositóiro GitHub:
+(https://github.com/Samuel-Silv/SmartPhoneUsage)
+
+
+##Fonte de dados selecionada:
+(https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset)
+
+
+
 
 ## Contextualização:
 O uso intenso de celulares influencia o comportamento dos usuários, afetando desde a comunicação até a saúde mental. 
@@ -21,7 +41,6 @@ como o uso de celulares transforma nossos comportamentos no âmbito social.
 
 
 ## Bibliotecas e Frameworks que devem ser utilizados:
-Aqui está a lista dos tópicos mencionados anteriormente:
 
 - *Pandas*
 - *NumPy*
@@ -29,4 +48,3 @@ Aqui está a lista dos tópicos mencionados anteriormente:
 - *Seaborn*
 - *Plotly*
 - *PyTorch*
-- *SciPy*
