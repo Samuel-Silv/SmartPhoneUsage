@@ -4,20 +4,15 @@
 ## Tema: SmartPhoneUsage - A utilização de Smartphones e o comportamento de usuários
 
 ## Componentes dos grupo:
--Gustavo Justino
--Neoaquison Medeiros
--Rafael Medeiros
--Samuel Silva
--Vinicius Soares
+- Gustavo Justino
+- Neoaquison Conceição Medeiros
+- Rafael Medeiros dos Santos
+- Samuel Silva
+- Vinicius Soares
 
-##Link do repositóiro GitHub:
-(https://github.com/Samuel-Silv/SmartPhoneUsage)
-
-
-##Fonte de dados selecionada:
-(https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset)
-
-
+## Links
+[Repositóiro GitHub](https://github.com/Samuel-Silv/SmartPhoneUsage)
+[Dataset Kaggle](https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset)
 
 
 ## Contextualização:
