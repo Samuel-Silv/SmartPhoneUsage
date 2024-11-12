@@ -40,8 +40,15 @@ como o uso de celulares transforma nossos comportamentos no âmbito social.
 Utilizaremos uma virtualenv e as lib listadas no arquivo [requirements.txt](./requirements.txt)
 
 1. instale o Virtualenv e crie uma virtualenv com o comando abaixo:
+
 ```` bash
 python3 -m venv .venv
+````
+
+2. Instale os pacotes do arquivo [requirements.txt](./requirements.txt)
+
+```` bash
+pip install -r requirements.txt
 ````
 
 ## Configurar Token do Kaggle API
