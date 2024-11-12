@@ -1,7 +1,6 @@
 import os
 import json
 import zipfile
-import pandas as pd
 
 def download_dataset(dataset_name):
     command = f"kaggle datasets download -d {dataset_name}"
