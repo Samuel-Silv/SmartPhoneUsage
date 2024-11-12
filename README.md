@@ -11,8 +11,8 @@
 - Vinicius Soares
 
 ## Links
-[Repositóiro GitHub](https://github.com/Samuel-Silv/SmartPhoneUsage)
-[Dataset Kaggle](https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset)
+- [Repositóiro GitHub](https://github.com/Samuel-Silv/SmartPhoneUsage)
+- [Dataset Kaggle](https://www.kaggle.com/datasets/bhadramohit/smartphone-usage-and-behavioral-dataset)
 
 
 ## Contextualização:
