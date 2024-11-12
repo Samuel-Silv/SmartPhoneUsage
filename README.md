@@ -37,9 +37,13 @@ como o uso de celulares transforma nossos comportamentos no âmbito social.
 
 ## Bibliotecas e Frameworks que devem ser utilizados:
 
-- *Pandas*
-- *NumPy*
-- *Matplotlib*
-- *Seaborn*
-- *Plotly*
-- *PyTorch*
+Utilizaremos uma virtualenv e as lib listadas no arquivo [requirements.txt](./requirements.txt)
+
+1. instale o Virtualenv e crie uma virtualenv com o comando abaixo:
+```` bash
+python3 -m venv .venv
+````
+
+## Configurar Token do Kaggle API
+
+Siga o passo-a-passo da [documentação oficial](https://www.kaggle.com/docs/api#getting-started-installation-&-authentication) para obter o Token e interagir com os datasets do Kaggle.
