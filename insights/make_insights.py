@@ -1,9 +1,26 @@
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("./ingestion/mobile_usage_behavioral_analysis.csv")
 
 print(df.head())
 print(df.columns)
+
+
+# 1. Distribuição da Idade dos Usuários
+
+dist_idade = df[
+    ['Social_Media_Usage_Hours',
+    'Age']
+    ]
+print(dist_idade.head())
+
+sns.histplot(data=dist_idade, x='Age', bins=10)
+plt.xlabel('Idade')
+plt.ylabel('Número de Usuários')
+plt.title('Distribuição da Idade dos Usuários')
+plt.show()
 
 
 # 2. Análise por tipo de aplicativo
@@ -41,6 +58,16 @@ geograficos = df[
      'Gaming_App_Usage_Hours']
     ]
 print(geograficos.head())
+
+sns.boxplot(data=geograficos, x='Location', y='Daily_Screen_Time_Hours')
+plt.xlabel('Localização')
+plt.ylabel('Tempo de Tela Diário (Horas)')
+plt.title('Distribuição de Uso de Tela Diário por Localização')
+plt.xticks(rotation=45)
+plt.show()
+
+
+
 
 faixa_etaria = df[
     ['Age', 
