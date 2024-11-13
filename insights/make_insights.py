@@ -1,6 +1,85 @@
 import pandas as pd
 
-df = pd.read_csv("../ingestion/mobile_usage_behavioral_analysis.csv")
+df = pd.read_csv("./ingestion/mobile_usage_behavioral_analysis.csv")
 
 print(df.head())
 print(df.columns)
+
+
+# 2. Análise por tipo de aplicativo
+
+tipo_aplicativo = df[
+    ['Social_Media_Usage_Hours',
+    'Productivity_App_Usage_Hours', 
+    'Gaming_App_Usage_Hours', 
+    'Age', 
+    'Gender', 
+    'Location']
+    ]
+
+print(tipo_aplicativo.head())
+
+# 3. Comportamento de Uso
+
+comportamentos = df[
+    ['Number_of_Apps_Used', 
+     'Total_App_Usage_Hours', 
+     'Social_Media_Usage_Hours', 
+     'Daily_Screen_Time_Hours']
+    ]
+
+print(comportamentos.head())
+
+# 4. Insights Demográficos
+
+geograficos = df[
+    ['Location', 
+     'Total_App_Usage_Hours', 
+     'Daily_Screen_Time_Hours', 
+     'Social_Media_Usage_Hours', 
+     'Productivity_App_Usage_Hours', 
+     'Gaming_App_Usage_Hours']
+    ]
+print(geograficos.head())
+
+faixa_etaria = df[
+    ['Age', 
+    'Total_App_Usage_Hours', 
+    'Daily_Screen_Time_Hours', 
+    'Social_Media_Usage_Hours', 
+    'Productivity_App_Usage_Hours', 
+    'Gaming_App_Usage_Hours']
+    ]
+print(faixa_etaria.head())
+
+# 5. Segmentação de usuários
+
+segmentacao = df[
+    ['Number_of_Apps_Used', 
+    'Total_App_Usage_Hours', 
+    'Social_Media_Usage_Hours', 
+    'Productivity_App_Usage_Hours', 
+    'Gaming_App_Usage_Hours']
+    ]
+print(segmentacao.head())
+
+perfil_usuarios = df[
+    ['Total_App_Usage_Hours']
+    ]
+
+print(perfil_usuarios.head())
+
+# 6. Tendências e Anomalias
+
+tendencias = df[
+    ['Total_App_Usage_Hours', 
+     'Daily_Screen_Time_Hours', 
+     'Number_of_Apps_Used']
+    ]
+print(tendencias.head())
+
+outliers = df[
+    ['Total_App_Usage_Hours', 
+    'Daily_Screen_Time_Hours']
+    ]
+print(outliers.head())
