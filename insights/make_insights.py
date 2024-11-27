@@ -36,6 +36,22 @@ tipo_aplicativo = df[
 
 print(tipo_aplicativo.head())
 
+# Calcular a média de tempo de uso por categoria de aplicativo para cada gênero
+media_tempo_por_genero = tipo_aplicativo.groupby('Gender')[
+    ['Social_Media_Usage_Hours', 'Productivity_App_Usage_Hours', 'Gaming_App_Usage_Hours']
+].mean()
+
+print("Média de horas de uso por categoria de aplicativo e gênero:")
+print(media_tempo_por_genero)
+
+# Calcular a média de tempo de uso por categoria de aplicativo para cada localização
+media_tempo_por_localizacao = tipo_aplicativo.groupby('Location')[
+    ['Social_Media_Usage_Hours', 'Productivity_App_Usage_Hours', 'Gaming_App_Usage_Hours']
+].mean()
+
+print("\nMédia de horas de uso por categoria de aplicativo e localização:")
+print(media_tempo_por_localizacao)
+
 # 3. Comportamento de Uso
 
 comportamentos = df[
@@ -95,6 +111,22 @@ perfil_usuarios = df[
     ]
 
 print(perfil_usuarios.head())
+
+# Seleção das colunas relevantes
+segmentacao = df[
+    ['Number_of_Apps_Used', 
+     'Total_App_Usage_Hours', 
+     'Social_Media_Usage_Hours', 
+     'Productivity_App_Usage_Hours', 
+     'Gaming_App_Usage_Hours']
+    ]
+
+
+segmentacao['User_Type'] = segmentacao['Total_App_Usage_Hours'].apply(lambda x: 'Heavy User' if x > 5 else 'Light User')
+
+print(segmentacao.head())
+
+print(segmentacao['User_Type'].value_counts())
 
 # 6. Tendências e Anomalias
 
