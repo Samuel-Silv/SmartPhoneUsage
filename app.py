@@ -7,7 +7,7 @@ import seaborn as sns
 st.set_page_config(page_title="Devop Mackenzie", page_icon="📈")
 
 st.markdown("# Engenharia de Dados - Mackenzie")
-st.markdown("## Engenharia de Dados - Mackenzie")
+st.markdown("## Devops - Mobile Usage Behavioral Analysis")
 st.sidebar.header("Gráficos")
 st.write(
     """Abaixo temos os gráficos das nossas analises"""
